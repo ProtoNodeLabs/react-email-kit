@@ -1,0 +1,24 @@
+{
+  "name": "@protonodelabs/react-email-kit",
+  "version": "1.0.0",
+  "description": "Production-ready React Email templates wired to Resend — welcome, invite, password reset, receipt, notification",
+  "private": true,
+  "scripts": {
+    "dev": "email dev --dir emails --port 3030",
+    "export": "email export --outDir out --pretty",
+    "send:test": "tsx src/send-test.ts"
+  },
+  "dependencies": {
+    "@react-email/components": "0.0.36",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "resend": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "react-email": "3.0.7",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
