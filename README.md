@@ -124,4 +124,4 @@ export async function POST(req: Request) {
 
 ---
 
-Built by [ProtoNodeLabs](https://proto-nodelabs.com). MIT licensed.
+Built by [ProtoNodeLabs](https://protonodelabs.com). MIT licensed.
